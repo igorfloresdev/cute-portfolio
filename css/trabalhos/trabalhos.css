@@ -1,0 +1,32 @@
+.trabalhos{
+  padding-bottom: 60px;
+}
+
+.trabalhos h2{
+  padding: 96px 0 32px 0;
+}
+.trabalhos .item{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  background-color: var(--c3);
+  border-radius: 24px;
+  margin-bottom: 28px;
+}
+
+.item-desc{
+  max-width: 50ch;
+}
+
+.item-desc h3{
+  padding-bottom: 4px;
+}
+
+.item-desc p{
+  padding-bottom: 24px;
+}
+
+.item-img{
+  justify-self: end;
+}

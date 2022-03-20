@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+}
+
+.inicio{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding-top: 10px
+}
+
+.titulo-inicio{
+  padding-top: 80px;
+}
+
+.titulo-inicio span{
+  padding: 12px 24px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+.titulo{
+  padding-top: 24px;
+}
+
+.inicio-botoes{
+  padding-top: 40px;
+}
+
+.inicio-botoes a{
+  margin: 0 8px;
+}
+
+.inicio-imagem{
+  justify-self: end;
+}
+
+.inicio-imagem img{
+  margin-bottom: -4px;
+}

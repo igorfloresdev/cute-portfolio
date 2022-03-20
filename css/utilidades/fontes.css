@@ -1,0 +1,40 @@
+.ws-b-xs,
+.ws-sb-xs,
+.ws-sb-sm,
+.ws-sb-lg,
+.ws-re-xs,
+.ws-me-xs,
+.ws-me-sm{
+  font: 600 1.25rem/1.5 'Work sans', sans-serif;
+}
+
+.ws-sb-sm,
+.ws-me-sm{
+  font-size: 1.5rem;
+}
+
+.ws-sb-lg{
+  font-size: 2rem;
+}
+
+.ws-re-xs{
+  font-weight: 400;
+}
+
+.ws-me-sm,
+.ws-me-xs{
+  font-weight: 500;
+}
+
+.ws-b-xs{
+  font-weight: 700;
+}
+
+.ez-sb-lg,
+.ez-sb-xl{
+  font: 600 2.5rem/1.3 'Eczar', serif;
+}
+
+.ez-sb-xl{
+  font-size: 4rem;
+}

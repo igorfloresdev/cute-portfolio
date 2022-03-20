@@ -1,0 +1,23 @@
+footer{
+  padding: 64px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.footer-desc{
+  justify-self: center;
+}
+
+.footer-desc h2{
+  padding-bottom: 56px;
+  max-width: 25ch;
+}
+
+.footer-redes{
+  align-self: end;
+  justify-self: end;
+}
+
+.footer-redes a{
+  padding: 0 15px;
+}

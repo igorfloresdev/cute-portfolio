@@ -1,0 +1,18 @@
+.sobre{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.sobre h2{
+  padding: 95.5px 0 8px 0;
+}
+
+.sobre p{
+  max-width: 40ch;
+  padding-bottom: 40px;
+}
+
+.sobre-img img{
+  margin: -4px;
+}

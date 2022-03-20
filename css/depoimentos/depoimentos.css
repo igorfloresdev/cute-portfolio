@@ -1,0 +1,43 @@
+.depoimentos{
+  padding: 64px 0;
+  text-align: center;
+  position: relative;
+}
+
+.depoimentos h2{
+  padding-top: 64px;
+}
+
+.depoimentos span{
+  padding-top: 8px;
+}
+
+.backward{
+  left: 0px;
+  bottom: 180px;
+}
+
+.forward{
+  right: 0px;
+  bottom: 180px;
+}
+
+.depoimentos svg{
+  position: absolute;
+}
+
+.item-dep{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 96px 0 80px 0;
+}
+
+.item-dep .item{
+  max-width: 50ch;
+}
+
+.item-dep .item span{
+  display: block;
+  padding-top: 20px;
+}

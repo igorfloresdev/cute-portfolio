@@ -1,0 +1,15 @@
+.btn-b,
+.btn{
+  padding: 24px 33px;
+  border-radius: 16px;
+  font: 600 1.5rem/1.3 'Work sans', sans-serif;
+  border: solid 4px var(--c8);
+  color: var(--c8);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-b{
+  background-color: var(--c7);
+  color: var(--c6);
+  border: none;
+}
