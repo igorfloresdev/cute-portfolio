@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -36,6 +40,12 @@ a {
   display: inline-block;
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 860px){
+  .container{
+    max-width: 800px;
+  }
 }
 
 

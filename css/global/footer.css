@@ -21,3 +21,16 @@ footer{
 .footer-redes a{
   padding: 0 15px;
 }
+
+@media (max-width:1060px){
+  footer{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-redes{
+    align-self: center;
+    justify-self: center;
+    padding-top: 40px;
+  }
+}

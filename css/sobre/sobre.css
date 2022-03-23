@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  position: relative;
 }
 
 .sobre h2{
@@ -15,4 +16,21 @@
 
 .sobre-img img{
   margin: -4px;
+}
+
+@media (max-width: 1060px){
+  .sobre{
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .sobre-img{
+    position: absolute;
+    width: 100px;
+    bottom: 0px;
+    right: 0;
+    opacity: 0.6;
+    pointer-events: none;
+  }
 }

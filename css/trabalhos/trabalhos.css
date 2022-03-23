@@ -30,3 +30,20 @@
 .item-img{
   justify-self: end;
 }
+
+@media (max-width:860px){
+  .trabalhos .item{
+    padding: 40px 0;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .item-img{
+    padding-top: 20px;
+    justify-self: center;
+  }
+
+  .item-img img{
+    max-width: 80%;
+  }
+}
